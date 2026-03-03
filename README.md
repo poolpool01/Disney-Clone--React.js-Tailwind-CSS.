@@ -6,18 +6,28 @@
 
 ## ✨ Features (จุดเด่นของโปรเจค)
 -Interactive Navigation Bar: แถบเมนูพร้อมไอคอนจาก React Icons (Hi2) และรองรับ Dropdown บนมือถือ
+
 -Dynamic Movie Slider: แบนเนอร์หนังยอดนิยม ดึงข้อมูลแบบ Real-time จาก TMDB พร้อมเลื่อนซ้าย–ขวา
+
 -Production House Cards: การ์ดค่ายหนัง (Disney, Pixar, Marvel ฯลฯ) พร้อมเอฟเฟกต์ Hover เล่นวิดีโอพื้นหลัง
+
 -Movie List by Genre: แสดงรายการหนังแยกตามประเภท (Action, Comedy, Animation ฯลฯ) โดยดึงข้อมูลผ่าน Axios ตาม Genre ID
+
 -Responsive Design: รองรับทุกขนาดหน้าจอ (Mobile / Tablet / Desktop) ด้วย Tailwind CSS
+
 -Smooth UI & Custom Scrollbar: ปรับแต่ง Scrollbar ให้ดูสะอาดตาและทันสมัย
 
 ## 🛠️ Tech Stack (เครื่องมือที่ใช้)
 -Framework: React.js (Vite)
+
 -Styling: Tailwind CSS
+
 -API Client: Axios
+
 -Icons: React Icons (Hi2)
+
 -Scrollbar Plugin: tailwind-scrollbar
+
 -API Source: The Movie Database
 
 ## 📸 Screenshots (ตัวอย่างหน้าเว็บ)
