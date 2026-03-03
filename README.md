@@ -1,16 +1,67 @@
-# React + Vite
+# 🎬 Disney+ Clone (React.js + Tailwind CSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+เว็บไซต์ Disney+ Clone 2.0 ที่เน้นความสวยงาม การแสดงผลลื่นไหล และการดึงข้อมูลภาพยนตร์จริงจาก The Movie Database (TMDB) มาแสดงผลแบบ Dynamic พัฒนาด้วย React.js
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features (จุดเด่นของโปรเจค)
+-Interactive Navigation Bar: แถบเมนูพร้อมไอคอนจาก React Icons (Hi2) และรองรับ Dropdown บนมือถือ
+-Dynamic Movie Slider: แบนเนอร์หนังยอดนิยม ดึงข้อมูลแบบ Real-time จาก TMDB พร้อมเลื่อนซ้าย–ขวา
+-Production House Cards: การ์ดค่ายหนัง (Disney, Pixar, Marvel ฯลฯ) พร้อมเอฟเฟกต์ Hover เล่นวิดีโอพื้นหลัง
+-Movie List by Genre: แสดงรายการหนังแยกตามประเภท (Action, Comedy, Animation ฯลฯ) โดยดึงข้อมูลผ่าน Axios ตาม Genre ID
+-Responsive Design: รองรับทุกขนาดหน้าจอ (Mobile / Tablet / Desktop) ด้วย Tailwind CSS
+-Smooth UI & Custom Scrollbar: ปรับแต่ง Scrollbar ให้ดูสะอาดตาและทันสมัย
 
-## React Compiler
+## 🛠️ Tech Stack (เครื่องมือที่ใช้)
+-Framework: React.js (Vite)
+-Styling: Tailwind CSS
+-API Client: Axios
+-Icons: React Icons (Hi2)
+-Scrollbar Plugin: tailwind-scrollbar
+-API Source: The Movie Database
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Screenshots (ตัวอย่างหน้าเว็บ)
+<img width="2546" height="1241" alt="image" src="https://github.com/user-attachments/assets/18d1064b-d540-47e6-93be-aed4a4642fd7" />
 
-## Expanding the ESLint configuration
+(Mobile)
+<img width="519" height="1120" alt="image" src="https://github.com/user-attachments/assets/18c0bc33-18e6-402e-97c1-4d08d00a1601" />
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started (วิธีรันโปรเจคในเครื่อง)
+1.Clone the repository
+   ```bash
+git clone https://github.com/your-username/disney-clone.git
+cd disney-clone
+```
+
+2.Install dependencies
+ ```bash
+npm install
+```
+
+3.Setup TMDB API Key
+-สมัครสมาชิกที่ The Movie Database
+-สร้าง API Key
+-สร้างไฟล์ .env และเพิ่มค่า:
+```bash
+VITE_TMDB_API_KEY=your_api_key_here
+```
+
+4.Run the project
+```bash
+npm run dev
+```
+
+5.เปิดเบราว์เซอร์ที่
+```bash
+[npm run dev](http://localhost:5173)
+```
+
+## 🎯 จุดประสงค์ของโปรเจค
+
+-ฝึกการพัฒนาเว็บด้วย React แบบ Component-based
+
+-ฝึกเชื่อมต่อ REST API จริง
+
+-ฝึกการออกแบบ UI ด้วย Tailwind CSS
+
+-พัฒนา Responsive Design ให้ใกล้เคียงงาน Production
