@@ -1,6 +1,6 @@
-# 🎬 Disney+ Clone (React.js + Tailwind CSS)
+# 🎬 Disney + Clone (React.js + Tailwind CSS)
 
-เว็บไซต์ Disney+ Clone 2.0 ที่เน้นความสวยงาม การแสดงผลลื่นไหล และการดึงข้อมูลภาพยนตร์จริงจาก The Movie Database (TMDB) มาแสดงผลแบบ Dynamic พัฒนาด้วย React.js
+เว็บไซต์ Disney+ Clone  ที่เน้นความสวยงาม การแสดงผลลื่นไหล และการดึงข้อมูลภาพยนตร์จริงจาก The Movie Database (TMDB) มาแสดงผลแบบ Dynamic พัฒนาด้วย React.js
 
 ---
 
